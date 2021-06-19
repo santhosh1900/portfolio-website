@@ -1,15 +1,10 @@
-import { Component, OnInit} from '@angular/core';
-declare const $: any;
-declare var main : any;
+import { Component } from '@angular/core';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
+export class AppComponent {
   title = 'portfolio';
-
-  ngOnInit(): void {
-    main();
-  }
 }
